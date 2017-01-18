@@ -1,6 +1,8 @@
 # Textarea Editor
 An extensible editor which, at its core, is an HTML `<textarea>` (hence the name) and sizeable panels, and browser JavaScript modules to add real functionality to it.
 
+[![Screenshot of core, without modules](screenshot.png)](editor.html)
+
 **[Begin Editing](editor.html)**
 
 The editor is fully self-contained, so you can easily download the file and work offline. The editor relies on nothing external, so you don't have to worry about privacy. Modules can still be ignorant of privacy, however, and can be dangerous. So be sure to pick modules that you can *trust*.
