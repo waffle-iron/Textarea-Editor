@@ -3,4 +3,6 @@ An extensible editor which, at its core, is an HTML `<textarea>` (hence the name
 
 Link: https://schas002.github.io/Textarea-Editor/
 
+[![Gitter](https://badges.gitter.im/schas002/Textarea-Editor.svg)](https://gitter.im/schas002/Textarea-Editor?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
+
 ![Screenshot of core, without modules](screenshot.png)
