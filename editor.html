@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Textarea Editor</title>
+    <style>
+      html, body {
+        /** allocate full height of window
+         * http://tympanus.net/codrops/2013/07/17/troubleshooting-css/
+         */
+        height: 100%;
+      }
+      body {
+        margin: 0 0 0 0;
+      }
+      .playground {
+        width: 100%;
+        height: 100%;
+        font-family: sans-serif;
+        background-color: #eee;
+      }
+      .mainarea {
+        width: 100%;
+        height: calc(100% - 2em);
+      }
+      .sidebar {
+        width: 20%;
+        height: 100%;
+        background-color: #ddd;
+        float: left;
+      }
+      .mainpart {
+        width: 80%;
+        height: 100%;
+        background-color: #ddd;
+        float: right;
+      }
+      .toolbar {
+        width: 100%;
+        height: 2em;
+        background-color: #eee;
+      }
+      .editorarea {
+        width: 100%;
+        height: calc(100% - 2em);
+      }
+      .editorpart {
+        width: 80%;
+        height: 100%;
+        float: left;
+      }
+      .projectbar {
+        width: 20%;
+        height: 100%;
+        background-color: #eee;
+        float: right;
+      }
+      .tabbar {
+        width: 100%;
+        height: 2em;
+        background-color: #eee;
+      }
+      .editor {
+        width: 100%;
+        height: calc(100% - 2em);
+      }
+      .textarea {
+        width: 99%;
+        height: 99%;
+      }
+      .statusbar {
+        width: 100%;
+        height: 2em;
+        background-color: #ddd;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="playground">
+      <div class="mainarea">
+        <div class="sidebar" id="sidebar">
+        </div>
+        <div class="mainpart">
+          <div class="toolbar" id="toolbar">
+          </div>
+          <div class="editorarea">
+            <div class="editorpart">
+              <div class="tabbar" id="tabbar">
+              </div>
+              <div class="editor">
+                <textarea name="textarea" id="textarea"
+                          class="textarea"></textarea>
+              </div>
+            </div>
+            <div class="projectbar" id="projectbar">
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="statusbar" id="statusbar">
+      </div>
+    </div>
+</html>
