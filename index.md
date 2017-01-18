@@ -17,6 +17,7 @@ The textarea doesn't have magic abilities of keeping data. You need to use modul
 You just need browser JavaScript.
 
 Modules can refer to any of the six main parts of the editor:
+
 - the side bar (`#sidebar`), for keeping forms;
 - the tool bar (`#toolbar`), for adding action buttons;
 - the tab bar (`#tabbar`), for interacting with multiple files;
