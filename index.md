@@ -1,5 +1,5 @@
 # Textarea Editor
-An extensible editor which, at its core, is an HTML `<textarea>` (hence the name) and responsive panels, and browser JavaScript modules to add real functionality to it.
+An extensible editor which, at its core, is an HTML `<textarea>` (hence the name) and sizeable panels, and browser JavaScript modules to add real functionality to it.
 
 **[Begin Editing](editor.html)**
 
